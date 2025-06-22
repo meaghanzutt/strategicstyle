@@ -365,8 +365,8 @@
         const communityLink = document.getElementById('community-link');
 
         // Update placeholder links
-        plannerLink.href = "https://example.com/goal-setting-planner"; // Replace with your actual planner link
-        communityLink.href = "https://example.com/strategic-style-community"; // Replace with your actual community link
+        plannerLink.href = "https://example.com/goal-setting-planner"; // https://buymeacoffee.com/strategicstyle/e/423801
+        communityLink.href = "https://example.com/strategic-style-community"; // https://x.com/i/communities/1760194232684532009
 
         const showPage = (pageToShow) => {
             landingPage.classList.add('hidden');
