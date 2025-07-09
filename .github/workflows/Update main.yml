@@ -1,0 +1,43 @@
+// Purple Palette for Membership Tiers
+$purple-lightest: #f3e9ff;
+$purple-lighter:  #d1b3ff;
+$purple-light:    #b380ff;
+$purple:          #8f5fff;
+$purple-medium:   #7c3aed;
+$purple-dark:     #5a189a;
+$purple-darker:   #3c096c;
+
+// Example usage for backgrounds, text, buttons, etc.
+body {
+  background: $purple-lightest;
+  color: $purple-dark;
+}
+
+a, .btn-primary {
+  background: $purple;
+  color: #fff;
+
+  &:hover {
+    background: $purple-dark;
+  }
+}
+
+header, footer {
+  background: $purple-medium;
+  color: #fff;
+}
+
+.membership-tier-basic {
+  background: $purple-lighter;
+  color: $purple-darker;
+}
+.membership-tier-premium {
+  background: $purple-light;
+  color: $purple-dark;
+}
+.membership-tier-elite {
+  background: $purple-medium;
+  color: $purple-lightest;
+}
+
+/* You can adjust the selectors above to match your site structure and membership tier classes */
